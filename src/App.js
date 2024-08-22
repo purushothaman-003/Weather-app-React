@@ -39,7 +39,7 @@ function App() {
   };
 
   return (
-    <div className="p-12 flex items-center justify-center bg-blue-200">
+    <div className="min-h-screen flex items-center justify-center bg-blue-200">
       <div className="bg-white p-8 rounded-lg shadow-md w-96">
         <h1 className="text-2xl font-bold mb-4 text-center">Weather Report</h1>
         <form onSubmit={handleSearch}>
